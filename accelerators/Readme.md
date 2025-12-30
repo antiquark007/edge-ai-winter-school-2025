@@ -11,7 +11,6 @@ Connect to the Jetson as `edgeuser` using the following IP address:
 
 ```bash
 ssh edgeuser@10.24.24.46
-ssh edgeuser@10.24.24.47
 ssh edgeuser@10.24.24.48
 ```
 
