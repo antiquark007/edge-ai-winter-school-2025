@@ -1,5 +1,5 @@
 
-# LLM Inference Workshop – Jetson Xavier Setup
+# LLM Inference Workshop 
 
 This document explains how to log into the Jetson Xavier device, activate the Python environment, and locate the provided LLM inference scripts used in the workshop.
 
@@ -155,4 +155,8 @@ source venv/bin/activate
 
 ```bash
 scp -r edgeuser@10.24.24.63:/media/ssd/workshop/benchmarks .
+```
+
+```bash
+uv run bench_plots.py
 ```
